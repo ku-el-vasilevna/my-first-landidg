@@ -1,0 +1,9 @@
+section.problem {
+  background-color: var(--c-bg-dark);
+  padding-top: 3rem;
+  padding-bottom: 5.75rem;
+
+  & h2 {
+    text-align: center;
+  }
+}

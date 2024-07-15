@@ -1,0 +1,13 @@
+section.hero {
+  padding-block: 10rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  & h1 {
+    font-size: 4.5rem;
+    color: var(--c-bg-light);
+    text-align: center;
+    font-weight: 500;
+  }
+}

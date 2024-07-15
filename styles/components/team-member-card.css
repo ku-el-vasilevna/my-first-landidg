@@ -1,0 +1,18 @@
+.team-member-card {
+  text-align: center;
+  padding: 1.5rem;
+
+  & img {
+    width: 10.5rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+  }
+  & h3 {
+    color: var(--c-accent);
+    margin-top: 0.75rem;
+  }
+  & .role {
+    font-size: 18px;
+    font-style: italic;
+  }
+}

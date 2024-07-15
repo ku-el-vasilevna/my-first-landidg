@@ -1,0 +1,18 @@
+section.together {
+  padding-block: 8rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  & .container {
+    max-width: 1003px;
+  }
+
+  & p {
+    font-size: 3rem;
+    color: var(--c-bg-light);
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+  }
+}

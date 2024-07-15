@@ -1,0 +1,22 @@
+header {
+  background-color: var(--c-accent);
+  padding-block: 1.25rem;
+
+  & .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  & nav {
+    display: flex;
+    font-size: 1.5rem;
+    line-height: 1;
+    gap: 0.5rem;
+    color: var(--c-bg-light);
+    font-weight: 500;
+    & hr {
+      border: thin solid var(--c-bg-light);
+    }
+  }
+}

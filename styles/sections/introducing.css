@@ -1,0 +1,13 @@
+section.introducing {
+  padding-top: 3rem;
+  padding-bottom: 5.75rem;
+
+  & h2 {
+    text-align: center;
+  }
+
+  & .logo {
+    float: left;
+    margin-right: 3rem;
+  }
+}
