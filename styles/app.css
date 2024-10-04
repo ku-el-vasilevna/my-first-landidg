@@ -1,3 +1,6 @@
+:root {
+  scroll-padding-top: 85px;
+}
 body {
   background-color: var(--c-bg-light);
   color: var(--c-text);

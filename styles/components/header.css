@@ -1,4 +1,7 @@
 header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   background-color: var(--c-accent);
   padding-block: 1.25rem;
 
@@ -15,8 +18,31 @@ header {
     gap: 0.5rem;
     color: var(--c-bg-light);
     font-weight: 500;
+    @media (width < 768px) {
+      display: none;
+    }
     & hr {
       border: thin solid var(--c-bg-light);
+    }
+  }
+
+  & .menu-btn {
+    display: inline-flex;
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 98%);
+    &.open {
+      & .icon-close {
+        display: inline-block;
+      }
+      & .icon-menu {
+        display: none;
+      }
+    }
+    @media (width >= 768px) {
+      display: none;
+    }
+    & .icon-close {
+      display: none;
     }
   }
 }

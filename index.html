@@ -11,18 +11,25 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
       <div class="container">
         <div class="site-logo"><img src="img/logo.svg" alt="логотип" /></div>
         <nav>
-          <a href="">the problem</a>
+          <a href="/#problem">the problem</a>
           <hr />
-          <a href="">PiedPiperCoin</a>
+          <a href="/#introducing">PiedPiperCoin</a>
           <hr />
-          <a href="">the team</a>
+          <a href="/#team">the team</a>
         </nav>
+        <button class="menu-btn">
+          <iconify-icon class="icon-menu" icon="ic:round-menu"></iconify-icon>
+          <iconify-icon class="icon-close" icon="ic:round-close"></iconify-icon>
+        </button>
       </div>
     </header>
     <main>
@@ -32,7 +39,7 @@
         </div>
       </section>
 
-      <section class="problem">
+      <section class="problem" id="problem">
         <div class="container">
           <h2>The Problem</h2>
           <p>
@@ -64,7 +71,7 @@
         </div>
       </section>
 
-      <section class="introducing">
+      <section class="introducing" id="introducing">
         <div class="container">
           <h2>Introducing PiedPiperCoin</h2>
           <img class="logo" src="img/PPC Logo.png" alt="logo" />
@@ -85,7 +92,7 @@
           </p>
         </div>
       </section>
-      <section class="team">
+      <section class="team" id="team">
         <div class="container">
           <h2>The Team</h2>
           <div class="cards">
@@ -132,6 +139,16 @@
         </p>
       </div>
     </footer>
+
+    <div class="mobile-menu">
+      <nav>
+        <a href="/#problem">the problem</a>
+        <hr />
+        <a href="/#introducing">PiedPiperCoin</a>
+        <hr />
+        <a href="/#team">the team</a>
+      </nav>
+    </div>
   </body>
 </html>
 <!-- <article class="team-member-card">
